@@ -1,0 +1,70 @@
+Here are clear instructions for using the provided HTML code:
+
+HTML Structure: The code defines a basic HTML document structure with <html>, <head>, and <body> tags.
+
+Meta Tags: Meta tags are used to set the character encoding and viewport for the document.
+
+Title: The <title> tag sets the title of the webpage, which is displayed in the browser tab.
+
+Stylesheets: Several external CSS files are linked to style the webpage. Make sure these files are accessible and contain the necessary styles.
+
+Navigation Bar: The code includes a navigation bar (<nav>) with various links (<a>) to different sections of the dashboard and dropdown menus for user settings.
+
+Dashboard Section: The dashboard section (<section>) contains a heading (<h1>) with an icon (<i>) and a background color.
+
+Dashboard Buttons: Three buttons are included in this section, each with a different color and icon. These buttons are used for adding tasks, categories, and employees.
+
+Current Task Section: This section displays a card (<div class="card">) with a table (<table>) showing customer rankings. Each row (<tr>) in the table represents a customer with details like name, email, task, level, category, and a button for details.
+
+Task Cards: Three cards are displayed on the right side of the current task section, each showing a different icon, title, and link for viewing details.
+
+Footer: The footer (<footer>) contains copyright information and a message indicating that all rights are reserved.
+
+Scripts: JavaScript libraries (<script>) are included at the end of the body for functionality such as toggling the navigation bar and enhancing the user interface.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DashBoard</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="../MDB/CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../MDB/CSS/mdb.css">
+    <link rel="stylesheet" type="text/css" href="../MDB/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../font/fontawesome/css/all.css">
+</head>
+<body>
+    <!-- Main navigation bar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <!-- Navbar content -->
+    </nav>
+
+    <!-- Dashboard section -->
+    <section class="pr-2 bg-default">
+        <!-- Dashboard content -->
+    </section>
+
+    <!-- Dashboard Button section -->
+    <section class="pr-2 bg-light">
+        <!-- Button content -->
+    </section>
+
+    <!-- Current Task section -->
+    <section class="pr-2 mt-2">
+        <!-- Current Task content -->
+    </section>
+
+    <!-- Main footer -->
+    <footer class="bg-dark text-white text-center">
+        <!-- Footer content -->
+    </footer>
+
+    <!-- JavaScript libraries -->
+    <script src="../MDB/js/jquery.js"></script>
+    <script src="../MDB/js/popper.js"></script>
+    <script src="../MDB/js/bootstrap.js"></script>
+    <script src="../MDB/js/mdb.js"></script>
+</body>
+</html>
